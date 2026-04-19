@@ -33,13 +33,33 @@
 
 
 
-console.log(Boolean(1)); //true
-console.log(Boolean(0)); //false
-console.log(Boolean("hello")); //true
-console.log(Boolean("")) //false
-console.log(Boolean(NaN)) //false
-console.log(Boolean(null)) //false
-console.log(Boolean("0")) //true
-console.log(Boolean(" ")) //true
+// console.log(Boolean(1)); //true
+// console.log(Boolean(0)); //false
+// console.log(Boolean("hello")); //true
+// console.log(Boolean("")) //false
+// console.log(Boolean(NaN)) //false
+// console.log(Boolean(null)) //false
+// console.log(Boolean("0")) //true
+// console.log(Boolean(" ")) //true
 
 
+// let counter = 2;
+// counter++;
+// console.log(counter);
+// counter--;
+// console.log(counter); //2
+
+// let c = 2;
+// let a = ++c; // the value of 'a' will be 3
+
+// let x = c++; //the value of 'x' will be 3
+// console.log('value of c:',c);
+// console.log('value of a:',a);
+// console.log('value of x:',x);
+
+
+let x = 5;
+let y = 3;
+// let r = x++ + ++y - 3;
+let r = ++x + ++y - 3;
+console.log('\nvalue of x:',x,'\nvalue of y:',y,'\nvalue of r:',r)
