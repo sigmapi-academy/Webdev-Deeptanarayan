@@ -66,13 +66,4 @@
 // admin.f(); // Hello! Admin (this == admin)
 
 // admin['f'](); // Admin (dot or square brackets access the method - doesn't matter)
-
-let user = {
-    firstName: "John",
-    sayHi(){
-        let arrow = () => console.log(this.firstName);
-        arrow();
-    }
-};
-
-user.sayHi(); // John
+ 
